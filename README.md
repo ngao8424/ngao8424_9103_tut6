@@ -18,12 +18,12 @@ To achieve the above effect, I refer to two specific strings of code.
 
 [Link to first code](https://editor.p5js.org/stevengerats/sketches/aWoCFoHKo)
 
-![Image 3 of the artwork](readmeImages/IMG3.jpg)
+![Image 3](readmeImages/IMG3.png)
 
 The first code achieves the basic animation effect by preloading and cycling through a sequence of images. The method is to gradually increase the scaling of each image while cycling through the images. This not only achieves a cyclic playback of the images, but also adds the visual effect of dynamic zooming to simulate the feeling of infinite zoom. 
 
 [Link to second code](https://happycoding.io/tutorials/p5js/animation#the-draw-loop)
 
-![Image 4 of the artwork](readmeImages/IMG4.jpg)
+![Image 4](readmeImages/IMG4.png)
 
 The second piece of code shows how to control the animation through simple state management, with the example showing the vertical movement of a circle. This idea can be used to adjust the speed and degree of image zoom. By setting a zoom state and updating this state at each frame, I can precisely control the zoomed-in behavior of the image. When the image is zoomed out to a certain degree, the state can be reset, resulting in a continuous loop.
